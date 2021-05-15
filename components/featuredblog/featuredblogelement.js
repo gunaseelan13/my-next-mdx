@@ -3,23 +3,19 @@ import Link from 'next/link'
 
 
 export const FeaturedContainer = styled.div`
-    height: 100%
     display: grid;
     // padding: 20px 10px;
     margin: 0px 20px 0px 20px;
     grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
     grid-gap: 10px;
     
-
     // @media screen and (max-width: 768px) {
         
-
     // }
     // @media screen and ( max-width: 375px ){
     //     transition: 0.8s all ease;
     //     margin: 0px 20px 0px 20px;
         
-
     // }
     // @media screen and ( max-width: 414px ){
     //     transition: 0.8s all ease;
@@ -35,19 +31,15 @@ export const FeaturedCard = styled.div`
     text-decoration: none;
     box-sizing: border-box;
     transition: color 0.15s ease, border-color 0.15s ease;
-
     image {
         width: 460px;
         height: 220px;
     }
-
     // @media screen and (max-width: 768px) {
     //     width: 300px;
-
     // }
     // @media screen and (max-width: 900px) {
     //     width: 400px;
-
     // }
     // @media screen and (max-width: 375px) {
     //     width: 330px;
@@ -59,7 +51,6 @@ export const FeaturedCard = styled.div`
     
     &:hover {
         cursor: pointer;
-
     }
 `;
 
@@ -73,7 +64,6 @@ export const FeaturedHeader = styled.div`
     letter-spacing: 0.01em;
     margin: 0px 20px 0px 20px;
     background: transparent;
-
     @media screen and (max-width: 768px) {
         font-size: 20px;
         margin: 0px 20px 0px 20px;
@@ -103,7 +93,6 @@ export const PostTitle = styled.div`
         text-decoration: underline; 
         transition: 0.8s all ease;
         cursor: pointer;
-
     }
     
     @media screen and (max-width: 768px) {
