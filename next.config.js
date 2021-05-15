@@ -6,5 +6,8 @@ module.exports = composePlugins([
     layoutPath: './templates'
   })
 ]), {
-  distDir: 'build'
+  distDir: 'build',
+  future: {
+    webpack5: true,
+  },
 };
