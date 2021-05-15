@@ -20,6 +20,7 @@ const FeaturedBlog = () => {
                     quality="100"
                     width={460}
                     height={220}
+                    priority
                     />
                     <PostTitle>Designing for Efficiency</PostTitle>
                     </FeaturedCard>
@@ -32,7 +33,7 @@ const FeaturedBlog = () => {
                     alt="Finding Core Values"
                     objectFit="cover"
                     quality="100"
-                    
+                    priority
                     width={460}
                     height={220}
                     />
