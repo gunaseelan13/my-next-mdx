@@ -10,7 +10,7 @@ export const HeroBG = styled.div`
     height: 200px;
     -webkit-backdrop-filter: blur(100px);
     filter: blur(100px);
-    // overflow: hidden;
+    overflow: hidden;
     justify-content: center;
 
 `;
