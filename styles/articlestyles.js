@@ -8,7 +8,9 @@ export const ArticleContainer = styled.div`
 `;
 
 export const ContentSection = styled.div`
-    margin: 160px 50px 75px ;
+    margin: 130px 50px 75px ;
+    line-height: 1.6;
+
 `;
 
 export const ContentBack = styled.div`
@@ -18,7 +20,7 @@ export const ContentBack = styled.div`
 export const ContentTitle = styled.div`
     color: #ffff;
     font-size: 46px;
-    text-align: left;
+    text-align: center;
     font-weight: 600;
     background: transparent;
 
@@ -37,6 +39,7 @@ export const ContentArticle = styled.div`
     font-size: 20px;
     margin: 40px 0px;
     max-width: 1040px;
+    line-height: 1.6;
 
     @media screen and (max-width: 768px) {
         font-size: 20px;

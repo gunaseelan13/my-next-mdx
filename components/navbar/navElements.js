@@ -1,8 +1,10 @@
 import styled from 'styled-components';
 
 export const Nav = styled.nav`
-    margin-top: -80px;
-    height: 80px;
+     margin-top: -80px;
+    max-width: 1040px;
+    width: auto;
+//     height: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -10,11 +12,20 @@ export const Nav = styled.nav`
     position: sticky;
     top: 0;
     background: transparent;
-    z-index: 2;
+    z-index: 4;
 
     @media screen and ( max-width: 960px ){
         transition: 0.8s all ease;
         position: static;
+     }
+     @media screen and ( max-width: 768px ){
+          transition: 0.8s all ease;
+          width: auto;
+     }
+
+     @media screen and ( max-width: 320px ){
+          transition: 0.8s all ease;
+          width: auto;
      }
 
 `;
@@ -28,6 +39,17 @@ export const NavbarContainer = styled.div`
     max-width: 1040px;
     padding: 0 24px;
     background: transparent;
+
+    @media screen and ( max-width: 768px ){
+     transition: 0.8s all ease;
+     width: 768px;
+  }
+
+  }
+     @media screen and ( max-width: 320px ){
+     transition: 0.8s all ease;
+     width: 320px;
+  }
 
 `;
 
@@ -55,11 +77,19 @@ export const NavLogo = styled.div`
 
 export const NavMenu = styled.ul`
      display: flex;
-     align-items: center:
-     list-style: none;
+     align-items: right:
      text-align: center;
      font-size: 16px;
      background: transparent;
+
+     @media screen and ( max-width: 768px ){
+          transition: 0.8s all ease;
+          width: auto;
+     }
+     @media screen and ( max-width: 320px ){
+          transition: 0.8s all ease;
+          width: auto;
+     }
 `;
 
 export const NavItems = styled.div`
@@ -79,7 +109,7 @@ export const NavLinks = styled.p`
 
      a{
           color: #ffff;
-          margin: 20px;
+          // margin: 20px;
           text-decoration: none;
           background: transparent;
 

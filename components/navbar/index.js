@@ -14,7 +14,7 @@ const Navbar = () => {
               <NavItems>
                 <NavLinks>
                   <Link href={"https://dribbble.com/gunaseelan"}><a>Work</a></Link>
-                  <Link href={"/mywriting"}><a>Writing</a></Link>
+                  {/* <Link href={"/mywriting"}><a>Writing</a></Link> */}
                 </NavLinks>
               </NavItems>
             </NavMenu>

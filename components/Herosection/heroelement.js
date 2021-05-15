@@ -5,13 +5,20 @@ export const HeroContainer = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 400px;
+    margin-top: 100px;
+    margin-bottom: 80px;
     background-color: #0000;
 
-    @media screen and ( max-width: 960px ){
+    @media screen and ( max-width: 768px ){
         transition: 0.8s all ease;
-        padding: 0px 0px;
-        margin-top: -80px;
+        margin-top: 36px;
+        margin-bottom: 60px;
+     }
+     @media screen and ( max-width: 360px ){
+        transition: 0.8s all ease;
+        margin-top: 36px;
+        margin-bottom: 56px;
+
      }
 `;
 
@@ -21,6 +28,7 @@ export const HeroContent = styled.div`
     width: 100%;
     max-width: 1100px;
     display: flex;
+    justify-content: center;
     flex-direction: column;
     align-items: left;
     z-index: 2;
@@ -36,13 +44,17 @@ export const HeroH1 = styled.h1`
     background: transparent;
 
     @media screen and (max-width: 768px) {
-        font-size: 32px;
+        font-size: 36px;
     }
 
     @media screen and (max-width: 480px) {
         transition: 0.8s all ease;
-        font-size: 28px;
+        font-size: 32px;
     }
+    @media screen and ( max-width: 360px ){
+        transition: 0.8s all ease;
+        font-size: 24px;
+     }
 `;
 
 export const HeroP1 = styled.p`
@@ -53,7 +65,7 @@ export const HeroP1 = styled.p`
     font-weight: 300;
     line-height: 38px;
     text-align: left;
-    max-width: 600px;
+    max-width: 800px;
     background: transparent;
 
     @media screen and (max-width: 768px) {
@@ -65,6 +77,12 @@ export const HeroP1 = styled.p`
     @media screen and (max-width: 480px) {
         transition: 0.8s all ease;
         margin-top: 16px;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    @media screen and (max-width: 360px) {
+        transition: 0.8s all ease;
+        margin-top: 10px;
         font-size: 16px;
         line-height: 24px;
     }

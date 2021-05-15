@@ -6,19 +6,41 @@ export const FeaturedContainer = styled.div`
     width: 100%;
     display: grid;
     padding: 20px 10px;
-    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit,minmax(380px,1fr));
     grid-gap: 10px;
+
+    @media screen and (max-width: 768px) {
+        grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+
+    }
+    @media screen and (max-width: 320px) {
+        padding: 10px 5px;
+        grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
+
+    }
 `;
 
 export const FeaturedCard = styled.div`
-    padding: 20px;
+    
     text-align: left;
     color: inherit;
     width: 460px;
-    padding: 0px 30px;
+    padding: 0px 40px;
     text-decoration: none;
-    
     transition: color 0.15s ease, border-color 0.15s ease;
+
+    @media screen and (max-width: 768px) {
+        width: 300px;
+
+    }
+    @media screen and (max-width: 900px) {
+        width: 400px;
+
+    }
+    @media screen and (max-width: 320px) {
+        width: 240px;
+    }
     
     &:hover {
         cursor: pointer;
@@ -39,6 +61,9 @@ export const FeaturedHeader = styled.div`
     @media screen and (max-width: 768px) {
         font-size: 20px;
     }
+    @media screen and (max-width: 320px) {
+        font-size: 16px;
+    }
 `;
 
 export const PostTitle = styled.div`
@@ -58,5 +83,8 @@ export const PostTitle = styled.div`
     
     @media screen and (max-width: 768px) {
         font-size: 20px;
+    }
+    @media screen and (max-width: 320px) {
+        font-size: 16px;
     }
 `;
