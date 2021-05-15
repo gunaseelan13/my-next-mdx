@@ -5,17 +5,22 @@ export const HeroContainer = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 100px;
-    margin-bottom: 80px;
+    margin: 0px 20px 0px 20px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    
     background-color: #0000;
 
-    @media screen and ( max-width: 768px ){
+     @media screen and ( max-width: 375px ){
         transition: 0.8s all ease;
+        margin: 0px 20px 0px 20px;
         margin-top: 36px;
-        margin-bottom: 60px;
+        margin-bottom: 56px;
+
      }
-     @media screen and ( max-width: 360px ){
+     @media screen and ( max-width: 414px ){
         transition: 0.8s all ease;
+        margin: 0px 20px 0px 20px;
         margin-top: 36px;
         margin-bottom: 56px;
 
@@ -24,7 +29,7 @@ export const HeroContainer = styled.div`
 
 export const HeroContent = styled.div`
     background: #0000;
-    padding: 0px 44px;
+    // padding: 0px 44px;
     width: 100%;
     max-width: 1100px;
     display: flex;
@@ -41,18 +46,20 @@ export const HeroH1 = styled.h1`
     text-align: left;
     font-weight: 600;
     letter-spacing: -1px;
+    max-width: 800px;
     background: transparent;
 
     @media screen and (max-width: 768px) {
         font-size: 36px;
     }
 
-    @media screen and (max-width: 480px) {
+    @media screen and (max-width: 414px) {
         transition: 0.8s all ease;
         font-size: 32px;
     }
     @media screen and ( max-width: 360px ){
         transition: 0.8s all ease;
+        
         font-size: 24px;
      }
 `;
@@ -65,7 +72,7 @@ export const HeroP1 = styled.p`
     font-weight: 300;
     line-height: 38px;
     text-align: left;
-    max-width: 800px;
+    max-width: 600px;
     background: transparent;
 
     @media screen and (max-width: 768px) {
@@ -74,7 +81,7 @@ export const HeroP1 = styled.p`
         line-height: 30px;
     }
 
-    @media screen and (max-width: 480px) {
+    @media screen and (max-width: 414px) {
         transition: 0.8s all ease;
         margin-top: 16px;
         font-size: 16px;

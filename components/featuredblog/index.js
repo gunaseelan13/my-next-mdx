@@ -15,7 +15,9 @@ const FeaturedBlog = () => {
                     <Image
                     rel="preload"
                     src="/images/image1.png"
-                    lt="Designing for Efficiency"
+                    alt="Designing for Efficiency"
+                    objectFit="cover"
+                    quality="100"
                     width={460}
                     height={220}
                     />
@@ -27,7 +29,10 @@ const FeaturedBlog = () => {
                     <Image
                     rel="preload"
                     src="/images/image2.png"
-                    lt="Finding Core Values"
+                    alt="Finding Core Values"
+                    objectFit="cover"
+                    quality="100"
+                    
                     width={460}
                     height={220}
                     />
