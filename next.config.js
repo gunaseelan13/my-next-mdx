@@ -5,4 +5,6 @@ module.exports = composePlugins([
   mdxEnhanced({
     layoutPath: './templates'
   })
-]);
+]), {
+  distDir: 'build'
+};
