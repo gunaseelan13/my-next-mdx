@@ -65,7 +65,6 @@ export const HeroH1 = styled.h1`
 `;
 
 export const HeroP1 = styled.p`
-    margin-top: 10px;
     color: #DDDCDB;
     font-size: 24px;
     opacity: .8;
@@ -73,6 +72,7 @@ export const HeroP1 = styled.p`
     line-height: 38px;
     text-align: left;
     max-width: 600px;
+    margin-top: 8px;
     background: transparent;
 
     @media screen and (max-width: 768px) {
@@ -83,13 +83,13 @@ export const HeroP1 = styled.p`
 
     @media screen and (max-width: 414px) {
         transition: 0.8s all ease;
-        margin-top: 16px;
+        margin-top: 8px;
         font-size: 16px;
         line-height: 24px;
     }
-    @media screen and (max-width: 360px) {
+    @media screen and (max-width: 375px) {
         transition: 0.8s all ease;
-        margin-top: 10px;
+        margin-top: 8px;
         font-size: 16px;
         line-height: 24px;
     }
