@@ -8,7 +8,13 @@ export const Footer1 = styled.div`
     justify-content: left;
     align-items: left;
     position: relative;
-    bottom: -200;
+    bottom: 0;
+
+    @media screen and ( max-width: 375px ){
+        margin: 100px auto 20px;
+            
+    
+    }
 
     a{
         margin: 20px 20px 0px;
