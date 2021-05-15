@@ -5,6 +5,7 @@ export const ArticleContainer = styled.div`
     height: auto;
     margin: 0px auto 0px;
     color: #d1d5db;
+    z-index: 2;
 `;
 
 export const ContentSection = styled.div`
