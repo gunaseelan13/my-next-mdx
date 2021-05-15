@@ -42,7 +42,6 @@ const FeaturedBlog = () => {
                     </FeaturedCard>
                 </Link>
              </FeaturedContainer>
-             <FooterSection/>
         </>
     )
 }
