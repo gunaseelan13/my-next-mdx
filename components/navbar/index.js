@@ -1,6 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
-import {Nav,NavbarContainer,NavLogo, NavMenu,NavItems,NavLinks,} from "./NavElements";
+import {Nav,NavbarContainer,NavLogo, NavMenu,NavItems,NavLinks} from "./NavElements";
   
 const Navbar = () => {
     return (
