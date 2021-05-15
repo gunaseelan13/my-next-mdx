@@ -7,4 +7,4 @@ export const Topsection = styled.div`
     justify-content: center;
     align-item: center;
     color: white;
-`
+`;

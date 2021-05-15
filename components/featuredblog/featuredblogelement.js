@@ -3,6 +3,7 @@ import Link from 'next/link'
 
 
 export const FeaturedContainer = styled.div`
+    height: 100%
     display: grid;
     // padding: 20px 10px;
     margin: 0px 20px 0px 20px;

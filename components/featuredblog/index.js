@@ -2,6 +2,7 @@ import React from 'react'
 import {FeaturedContainer, FeaturedCard, FeaturedHeader, PostTitle} from './featuredblogelement'
 import Image from 'next/image'
 import Link from 'next/link'
+import FooterSection from '../footersection'
 
 const FeaturedBlog = () => {
     return (
@@ -41,6 +42,7 @@ const FeaturedBlog = () => {
                     </FeaturedCard>
                 </Link>
              </FeaturedContainer>
+             <FooterSection/>
         </>
     )
 }
