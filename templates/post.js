@@ -34,6 +34,7 @@ export default function Post({ children, frontMatter }) {
         </ContentBack>
       </ContentSection>
     </ArticleContainer>
+    <HerobgSection/>
   </>
   )
 }

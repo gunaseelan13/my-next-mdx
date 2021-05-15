@@ -12,7 +12,7 @@ export const ContentSection = styled.div`
     line-height: 1.6;
 
     @media screen and (max-width: 375px) {
-        margin: 60px 20px 20px ;
+        margin: 160px 20px 20px ;
     }
 `;
 
@@ -42,7 +42,8 @@ export const ContentTitle = styled.div`
     font-weight: 700;
     max-width: 600px;
     margin: 0 auto;
-    background: transparent;
+    // background: transparent;
+    
 
     @media screen and (max-width: 768px) {
         font-size: 32px;
@@ -54,6 +55,7 @@ export const ContentTitle = styled.div`
         line-height: 32px;
         text-align: left;
         margin: 0px 20px 0px 0px; 
+        
     }
 `;
 
