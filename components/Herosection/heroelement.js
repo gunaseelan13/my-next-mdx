@@ -94,6 +94,16 @@ export const HeroP1 = styled.p`
         line-height: 24px;
     }
 
+    a {
+        // font-size: 24px;
+        // font-weight: 500;
+        margin-left: 6px;
+        background: transparent;
+        // background: -webkit-linear-gradient(#00d2ff, #3a7bd5);
+        // -webkit-background-clip: text;
+        // -webkit-text-fill-color: transparent;
+    }
+
 `;
 
 export const HeroBtnWrapper = styled.div `

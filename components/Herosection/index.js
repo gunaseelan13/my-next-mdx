@@ -6,7 +6,12 @@ const HeroSection = () => {
         <HeroContainer>
             <HeroContent>
                 <HeroH1>Hey, I'm Guna Seelan</HeroH1>
-                <HeroP1>I’m a Product designer living in Chennai, India. Currently working on Zoho Corp.</HeroP1>
+                <HeroP1>I’m a Product designer living in Chennai, India. Currently working on 
+                <a 
+                target="_blank"
+                rel="noopener noreferrer"
+                href={"https://zoho.com"}
+                >Zoho Corp.</a></HeroP1>
                 <HeroBtnWrapper>
                 <Button >
                     <a 

@@ -28,7 +28,7 @@ export default function Post({ children, frontMatter }) {
         <ContentBack>
           <Link href="/">
             <a>
-              Back to home
+            ← Back to home
             </a>
           </Link>
         </ContentBack>

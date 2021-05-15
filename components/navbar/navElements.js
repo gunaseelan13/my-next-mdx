@@ -9,7 +9,7 @@ export const Nav = styled.nav`
     justify-content: center;
     align-items: center;
     font-size: 1rem;
-    position: sticky;
+//     position: sticky;
     top: 0;
     margin: 0px 20px 0px 20px;
     background: transparent;
@@ -17,7 +17,7 @@ export const Nav = styled.nav`
 
     @media screen and ( max-width: 960px ){
         transition: 0.8s all ease;
-        position: static;
+     //    position: static;
      }
      @media screen and ( max-width: 768px ){
           transition: 0.8s all ease;
