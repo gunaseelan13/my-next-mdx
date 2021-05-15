@@ -8,6 +8,7 @@ export const HeroBG = styled.div`
     left: 0;
     width: 100%;
     height: 200px;
+    -webkit-backdrop-filter: blur(100px);
     filter: blur(100px);
     overflow: hidden;
     display: flex;

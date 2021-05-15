@@ -1,8 +1,23 @@
-import React from 'react'
+import React from 'react';
 import Link from 'next/link'
 import { Nav,NavbarContainer,NavLogo, NavMenu,NavItems,NavLinks } from "./navElements";
   
 const Navbar = () => {
+//   const [scrollNav, setScrollNav] = useState(false)
+
+//   const changeNav = () => {
+//     if(window.scrollY >= 1000) {
+//       setScrollNav(false)
+//     } else {
+//       setScrollNav(true)
+//     }
+//   }
+
+//   useEffect(() => {
+//     window.addEventListener('scroll', changeNav);
+//   },[] );
+//   scrollNav={scrollNav}
+
     return (
       <>
         <Nav>

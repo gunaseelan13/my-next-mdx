@@ -2,8 +2,8 @@ import styled from 'styled-components';
 
 export const Nav = styled.nav`
      margin-top: -80px;
-    max-width: 1040px;
-    width: auto;
+    max-width: auto;
+    width: 1040px;
 //     height: 80px;
     display: flex;
     justify-content: center;
