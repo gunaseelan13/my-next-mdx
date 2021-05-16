@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const Nav = styled.nav`
      // margin-top: -80px;
     max-width: auto;
-    width: 1040px;
+//     width: 1040px;
      // height: 80px;
     display: flex;
     justify-content: center;
@@ -116,6 +116,7 @@ export const NavLinks = styled.p`
      color: #ffff;
      display: flex;
      align-items: center;
+     text-align: right;
      text-decoration: none;
      height: 100%;
      cursor: pointer;

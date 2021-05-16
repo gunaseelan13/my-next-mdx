@@ -5,9 +5,9 @@ import Link from 'next/link'
 export const FeaturedContainer = styled.div`
     display: grid;
     // padding: 20px 10px;
-    margin: 0px 20px 0px 20px;
+    margin: 0px 20px 60px 20px;
     grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
-    grid-gap: 10px;
+    grid-gap: 20px 30px;
     
     // @media screen and (max-width: 768px) {
         
@@ -85,7 +85,7 @@ export const PostTitle = styled.div`
     font-size: 18px;
     text-align: left;
     font-weight: 400;
-    padding: 8px 0px;
+    padding: 4px 0px;
     
     background: transparent;
     

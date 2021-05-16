@@ -133,6 +133,11 @@ export const Button = styled.button`
         text-decoration: none;
         background: transparent;
     }
+
+    Twitter {
+        text-decoration: none;
+        background: transparent;
+    }
   
 
     &:hover {

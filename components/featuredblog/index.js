@@ -2,7 +2,7 @@ import React from 'react'
 import {FeaturedContainer, FeaturedCard, FeaturedHeader, PostTitle} from './featuredblogelement'
 import Image from 'next/image'
 import Link from 'next/link'
-import FooterSection from '../footersection'
+
 
 const FeaturedBlog = () => {
     return (
@@ -19,7 +19,7 @@ const FeaturedBlog = () => {
                     alt="Designing for Efficiency"
                     objectFit="cover"
                     quality="100"
-                    width={460}
+                    width={495}
                     height={220}
                     priority
                     />
@@ -35,7 +35,7 @@ const FeaturedBlog = () => {
                     objectFit="cover"
                     quality="100"
                     priority
-                    width={460}
+                    width={495}
                     height={220}
                     />
                     <PostTitle>Finding Core Values</PostTitle>

@@ -4,6 +4,7 @@ import HerobgSection from '../backgroundG'
 import {Topsection} from './topsectionstyle'
 import FeaturedBlog from '../featuredblog'
 import FooterSection from '../footersection'
+import WorkExp from '../workExp'
 
 
 
@@ -14,6 +15,7 @@ export default function MyApp () {
       <Navbar/>
       <HeroSection/>
       <FeaturedBlog/>
+      <WorkExp/>
       <HerobgSection/>
       <FooterSection/>
     </Topsection>
