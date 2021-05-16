@@ -60,6 +60,7 @@ export const FeaturedCard = styled.div`
     // background: transparent;
     text-decoration: none;
     box-sizing: border-box;
+    
 
     display: flex;
     flex-direction: row;
@@ -93,9 +94,9 @@ export const FeaturedCard = styled.div`
 
 export const PostTitle = styled.div`
     color: #F4F4F4;
-    font-size: 18px;
+    font-size: 20px;
     text-align: left;
-    font-weight: 400;
+    font-weight: 600;
     // padding: 2px 0px;
     
     background: transparent;
@@ -120,7 +121,7 @@ export const PostTitle2 = styled.div`
     color: #F4F4F4;
     font-size: 18px;
     text-align: left;
-    font-weight: 400;
+    font-weight: 500;
     padding: 2px 0px;
     
     background: transparent;
@@ -155,6 +156,8 @@ export const WorkTitle = styled.div`
 export const ImageTag = styled.div`
     background: #191E25;
     justify-content: center;
+    overflow: hidden;
+
     align-items: center;
     border-radius: 70px;
     width: 70px;
