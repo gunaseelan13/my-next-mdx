@@ -82,10 +82,10 @@ export const FeaturedHeader = styled.div`
 
 export const PostTitle = styled.div`
     color: #F4F4F4;
-    font-size: 18px;
+    font-size: 20px;
     text-align: left;
     font-weight: 400;
-    padding: 4px 0px;
+    padding: 2px 0px;
     
     background: transparent;
     

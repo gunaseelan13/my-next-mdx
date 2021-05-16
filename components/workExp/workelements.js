@@ -121,7 +121,7 @@ export const PostTitle2 = styled.div`
     color: #F4F4F4;
     font-size: 18px;
     text-align: left;
-    font-weight: 500;
+    font-weight: 400;
     padding: 2px 0px;
     
     background: transparent;
@@ -157,7 +157,6 @@ export const ImageTag = styled.div`
     background: #191E25;
     justify-content: center;
     overflow: hidden;
-
     align-items: center;
     border-radius: 70px;
     width: 70px;
