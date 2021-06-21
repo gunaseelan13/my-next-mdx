@@ -12,6 +12,7 @@ import WorkExp from '../workExp'
 export default function MyApp () {
   return (
     <Topsection>
+      
       <Navbar/>
       <HeroSection/>
       <FeaturedBlog/>
