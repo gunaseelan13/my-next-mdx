@@ -5,8 +5,8 @@ const FooterSection = () => {
     return (
         <Footer1>
             <span>©2021</span> 
-            <a target="_blank" rel="noopener noreferrer" href={"https://github.com/gunaseelan13"}>GitHub</a> 
-            <a target="_blank" rel="noopener noreferrer" href={"mailto:hellogunaseelan@gmail.com"}>Email</a>
+            <a target="_blank" rel="noopener noreferrer" href={"https://twitter.com/gunaseelan13"}>Twitter</a>
+            <a target="_blank" rel="noopener noreferrer" href={"https://github.com/hellogunaseelan"}>GitHub</a> 
         </Footer1>
     )
 }

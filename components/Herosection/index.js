@@ -12,14 +12,14 @@ const HeroSection = () => {
                 target="_blank"
                 rel="noopener noreferrer"
                 href={"https://zoho.com"}
-                >Zoho Corp.</a></HeroP1>
+                >Zoho.</a></HeroP1>
                 <HeroBtnWrapper>
                 <Button >
                     <a 
                     target="_blank"
                     rel="noopener noreferrer"
-                    href={"https://twitter.com/hellogunaseelan"}
-                    >Follow me on twitter</a>
+                    href={"mailto:hellogunaseelan@gmail.com"}
+                    >Get in touch</a>
                 </Button>
                 </HeroBtnWrapper>
             </HeroContent>

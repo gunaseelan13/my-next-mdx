@@ -44,7 +44,7 @@ export const HeroH1 = styled.h1`
     color: #ffff;
     font-size: 46px;
     text-align: left;
-    font-weight: 600;
+    font-weight: 900;
     letter-spacing: -1px;
     max-width: 800px;
     background: transparent;
@@ -68,11 +68,12 @@ export const HeroP1 = styled.p`
     color: #DDDCDB;
     font-size: 24px;
     opacity: .8;
-    font-weight: 300;
-    line-height: 38px;
+    font-weight: 400;
+    line-height: 34px;
     text-align: left;
     max-width: 600px;
-    margin-top: 8px;
+    margin-top: 4px;
+    margin-bottom: 4px;
     background: transparent;
 
     @media screen and (max-width: 768px) {
@@ -96,7 +97,7 @@ export const HeroP1 = styled.p`
 
     a {
         // font-size: 24px;
-        // font-weight: 500;
+        // font-weight: 400;
         margin-left: 6px;
         background: transparent;
         // background: -webkit-linear-gradient(#00d2ff, #3a7bd5);
