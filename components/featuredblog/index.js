@@ -14,13 +14,14 @@ const FeaturedBlog = () => {
                 <Link href="/posts/designing-for-efficiency">
                     <FeaturedCard>
                     <Image
-                    rel="preload"
+                    //rel="preload"
                     src="/images/image1.png"
                     alt="Designing for Efficiency"
                     objectFit="cover"
                     quality="100"
                     width={495}
                     height={220}
+                    placeholder="blur"
                     priority
                     />
                     <PostTitle>Designing for Efficiency</PostTitle>
@@ -29,11 +30,12 @@ const FeaturedBlog = () => {
                 <Link href="/posts/designing-for-values">
                     <FeaturedCard>
                     <Image
-                    rel="preload"
+                    //rel="preload"
                     src="/images/image2.png"
                     alt="Finding Core Values"
                     objectFit="cover"
                     quality="100"
+                    placeholder="blur"
                     priority
                     width={495}
                     height={220}
