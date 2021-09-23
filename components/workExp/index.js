@@ -8,7 +8,7 @@ const WorkExp = () => {
     return (
         <>  
             <FeaturedHeader>
-                <div>Recent Work</div>
+                <div>Previous Experience</div>
             </FeaturedHeader>
             <FeaturedContainer>
                 <Link href="/posts/designing-for-efficiency">
