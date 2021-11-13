@@ -70,6 +70,13 @@ export const ContentArticle = styled.div`
     margin-right: auto;
     margin-left: auto;
     box-sizing: border-box;
+
+
+    ul{
+        display: block;
+        padding-left: 40px;
+    }
+    
     
 
     p{
