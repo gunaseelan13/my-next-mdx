@@ -8,7 +8,7 @@ export const FeaturedContainer = styled.div`
     
     margin: 0px 20px 0px 20px;
    //grid-template-columns: repeat(auto-fit,minmax(300px,480px));
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
     grid-gap: 0px 30px;
     
     // @media screen and (max-width: 768px) {
